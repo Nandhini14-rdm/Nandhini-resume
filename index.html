@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,44 +6,40 @@
     <title>Resume</title>
 
     <style>
-
-        body{
+        body {
            font-family: Arial, sans-serif; 
            margin:0;
            padding:0;
            background-color: #f4f4f4;
         }
 
-        .container{
+        .container {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
             background: white;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        h1{
+        h1 {
             text-align: center;
-            color:#333;
+            color: #333;
         }
-        p#sub-head{
+        p#sub-head {
             text-align: center;
             color: #333;
             margin: -15px;
             font-size: 13px;
         }
-        .contact-info{
+        .contact-info {
             text-align: center;
             margin: 10;
             padding: 10px;
-
         }
-        .contact-info a, .link{
+        .contact-info a, .link {
             color: #1f8db5;
             text-decoration: none;
         }
-        .education, .projects, .skills, .certifications, .achievements{
-            
-           /* display: inline-block;*/
+        .education, .projects, .skills, .certifications, .achievements {
             margin: 10px 0;
             font-style: italic;
             font-size: 18px;
@@ -54,8 +49,8 @@
             border-radius: 5px;
             background-color: #eaf0f6;
         }
-        .p1{
-            margin: 10px ;
+        .p1 {
+            margin: 10px;
             padding: 10px 0;
             line-height: 1.2;
             position: relative;
@@ -66,21 +61,21 @@
             position: absolute;
             right: 0;
         }
-        .skills-ul, .cert-ul{
+        .skills-ul, .cert-ul {
             line-height: 1.2;
             font-style: italic;
             position: relative;
-            margin: 10px ;
+            margin: 10px;
             margin-left: 25px;
             padding: 15px 2px; 
         }
-        .proj-ul{
-            margin: 10px ;
-            margin-left: 25px;
+        .proj-ul {
+            margin: 10px;
             margin-left: 25px;
             padding: 15px 2px;
+            position: relative;
         }
-        .tools{
+        .tools {
             margin: 4px;
             line-height: 1.2;
             font-family: Arial, Helvetica, sans-serif;
@@ -91,14 +86,26 @@
             line-height: 1.2;
             font-style: italic;
         }
-        .achievements-title{
+        .achievements-title {
             margin: 8px;
             font-family: Arial, Helvetica, sans-serif;
         }
-        
+        .links-container {
+            text-align: right;
+            margin-top: 10px;
+        }
+        .links-container a {
+            color: #cf2f2f;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        .project-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
     </style>
-
 </head>
 <body>
 
@@ -157,9 +164,14 @@
             <ul class="proj-ul">
 
                 <li class="proj-item">
-                    <strong>N-QUEENS GAME</strong><a class="link" href="https://github.com/Nandhini14-rdm/NQUEENS-Game" target="_blank"> &nbsp; [Github link]</a><br> 
+                    <div class="project-title">
+                        <strong>N-QUEENS GAME</strong>
+                        <div class="links-container">
+                            <a href="https://github.com/Nandhini14-rdm/NQUEENS-Game" target="_blank"><u>[Github link]</u></a>
+                            <a href="https://www.yourwebsite.com/nqueens" target="_blank"><u>[Website link]</u></a>
+                        </div>
+                    </div>
                     <i class="tools">Tools used : HTML, CSS, JavaScript  |  Algorithms used : Backtracking</i> <br>
-
                     <ul class="proj-details">
                         <li> Built an interactive N-Queens game where players can either place queens manually or use an automated solution.</li>
                         <li> Added a timer to track how long the game takes, making it more engaging.</li>
@@ -169,7 +181,13 @@
                 </li>
 
                 <li class="proj-item">
-                    <strong>résumé PROJECT</strong><a class="link" href="https://github.com/Nandhini14-rdm/Nandhini-resume" target="_blank"> &nbsp;    [Github link]</a><br>
+                    <div class="project-title">
+                        <strong>résumé PROJECT</strong>
+                        <div class="links-container">
+                            <a href="https://github.com/Nandhini14-rdm/Nandhini-resume" target="_blank"><u>[Github link]</u></a>
+                            <a href="https://www.yourwebsite.com/resume" target="_blank"><u>[Website link]</u></a>
+                        </div>
+                    </div>
                     <i class="tools">Tools used: HTML, CSS | Features: Resume Design</i><br>
                     <ul class="proj-details">
                         <li>Designed a professional resume using HTML and CSS to showcase skills, education, and experience.</li>
@@ -195,7 +213,6 @@
             </p>
             <br>
         </div>
-
 
     </div>
 
