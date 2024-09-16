@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+
+    <style>
+
+        body{
+           font-family: Arial, sans-serif; 
+           margin:0;
+           padding:0;
+           background-color: #f4f4f4;
+        }
+
+        .container{
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1{
+            text-align: center;
+            color:#333;
+        }
+        p#sub-head{
+            text-align: center;
+            color: #333;
+            margin: -15px;
+            font-size: 13px;
+        }
+        .contact-info{
+            text-align: center;
+            margin: 10;
+            padding: 10px;
+
+        }
+        .contact-info a, .link{
+            color: #1f8db5;
+            text-decoration: none;
+        }
+        .education, .projects, .skills, .certifications, .achievements{
+            
+           /* display: inline-block;*/
+            margin: 10px 0;
+            font-style: italic;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background-color: #eaf0f6;
+        }
+        .p1{
+            margin: 10px ;
+            padding: 10px 0;
+            line-height: 1.2;
+            position: relative;
+            font-style: italic;
+        }
+        .year {
+            color: #474444;
+            position: absolute;
+            right: 0;
+        }
+        .skills-ul, .cert-ul{
+            line-height: 1.2;
+            font-style: italic;
+            position: relative;
+            margin: 10px ;
+            margin-left: 25px;
+            padding: 15px 2px; 
+        }
+        .proj-ul{
+            margin: 10px ;
+            margin-left: 25px;
+            margin-left: 25px;
+            padding: 15px 2px;
+        }
+        .tools{
+            margin: 4px;
+            line-height: 1.2;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .proj-details, .achievements-ul {
+            margin: 4px;
+            list-style-type: disc;
+            line-height: 1.2;
+            font-style: italic;
+        }
+        .achievements-title{
+            margin: 8px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>NANDHINI D</h1>
+        <p id="sub-head"><strong>Aspiring Data Analyst and Web Developer</strong></p>
+        <p class="contact-info">
+            <i>Email</i> : <a href="mailto:nandhinirdm@gmail.com" target="_blank"><u>Nandhinirdm</u></a> &nbsp;| &nbsp;
+            <i>Phone</i> : <a href="tel:+918489152233" target="_blank"><u> +91 84891-52233</u></a> &nbsp;|&nbsp;
+            <i>LinkedIn</i> : <a href="https://www.linkedin.com/in/nandhini-rdm-aba144260/" target="_blank"><u>Nandhini Rdm</u></a>
+        </p>
+        
+
+        <div class="section">
+            <h2 class="education">EDUCATION</h2>
+            <p class="p1">
+                <strong>Degree</strong> : Bachelors Of Technology  <i class="year">2022 - present</i> <br>
+                <strong>Branch</strong> : Artificial Intelligence And Data Science <br>
+                <strong>Institution</strong> : St. Jospeh's College Of Engineering, Chennai <br>
+                <strong>CGPA</strong> : 8.93
+            </p>
+        </div>
+
+        <div class="section">
+            <h2 class="skills">SKILLS</h2>
+            <ul class="skills-ul">
+                <li>
+                    <strong>Programming Languages</strong>: Java, Python
+                </li>
+                <li>
+                    <strong>Problem Solving</strong>
+                </li>
+                <li>
+                    <strong>Web Technologies</strong> : HTML, CSS, JavaScript
+                </li>
+                <li>
+                    <strong>Database Management</strong> : MySQL
+                </li>
+                <li>
+                    <strong>Data Analysis</strong> : NumPy, Pandas, Matplotlib, Sci-kit learn
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 class="certifications">CERTIFICATIONS</h2>
+            <ul class="cert-ul">
+                <li>Data Analysis with Python | <strong>IBM</strong></li>
+                <li>SQL course | <strong>PrepInsta</strong></li>
+                <li>Python for Data Science | <strong>NPTEL</strong></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 class="projects">PROJECTS</h2>
+            <ul class="proj-ul">
+
+                <li class="proj-item">
+                    <strong>N-QUEENS GAME</strong><a class="link" href="https://github.com/Nandhini14-rdm/NQUEENS-Game" target="_blank"> &nbsp; [Github link]</a><br> 
+                    <i class="tools">Tools used : HTML, CSS, JavaScript  |  Algorithms used : Backtracking</i> <br>
+
+                    <ul class="proj-details">
+                        <li> Built an interactive N-Queens game where players can either place queens manually or use an automated solution.</li>
+                        <li> Added a timer to track how long the game takes, making it more engaging.</li>
+                        <li> Developed a feature to show all possible solutions to the N-Queens problem.</li>
+                        <li> Used recursive backtracking to solve the puzzle, making the game faster and more efficient.</li>
+                    </ul>
+                </li>
+
+                <li class="proj-item">
+                    <strong>résumé PROJECT</strong><a class="link" href="https://github.com/Nandhini14-rdm/Nandhini-resume" target="_blank"> &nbsp;    [Github link]</a><br>
+                    <i class="tools">Tools used: HTML, CSS | Features: Resume Design</i><br>
+                    <ul class="proj-details">
+                        <li>Designed a professional resume using HTML and CSS to showcase skills, education, and experience.</li>
+                        <li>Utilized internal CSS for styling to create a clean and modern look.</li>
+                        <li>Implemented responsive design techniques to ensure the resume looks good on various devices.</li>
+                        <li>Added sections for projects, skills, certifications, and achievements to highlight key accomplishments.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h2 class="achievements">ACHIEVEMENTS</h2>
+            <p>
+                <strong class="achievements-title">100 Days of coding challenge</strong><a href="https://leetcode.com/u/nandhini1408/" target="_blank">[Leetcode link]</a> <br>
+                
+                <ul class="achievements-ul">
+                    <li> Completed the 100 Days of Code challenge by coding every day for 100 consecutive days, earning the 50 Days and
+                        100 Days badges in 2024.</li>
+                    <li> Solved 350+ problems on LeetCode, improving problem-solving skills and algorithmic knowledge.</li>
+                </li>
+                </ul>
+            </p>
+            <br>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
